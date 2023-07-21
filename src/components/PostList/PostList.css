@@ -1,0 +1,21 @@
+.searchInp {
+  outline: none;
+}
+
+.btnContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btnContainer button {
+  width: 60px;
+  height: 25px;
+  margin: 6px 1px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(96, 96, 247);
+  color: white;
+}
+.btnContainer button:hover {
+  background-color: rgb(117, 117, 243);
+}

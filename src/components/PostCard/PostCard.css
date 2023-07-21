@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  max-width: 370px;
+  border: none;
+  overflow-wrap: break-word;
+  margin: 20px auto;
+  height: 35vh;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 18px;
+  background: rgb(95, 154, 249);
+  color: #fff;
+}
+.card h2 {
+  margin-bottom: 20px;
+  font-size: 19px;
+  border-bottom: #fff 1px solid;
+}
+.card p {
+  font-size: 14px;
+}
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  border-bottom: rgb(3, 3, 223) solid 5px;
+}
