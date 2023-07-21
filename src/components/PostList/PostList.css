@@ -1,5 +1,13 @@
 .searchInp {
   outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+  color: rgb(3, 3, 223);
+  background: #b2dbf9;
+  border: solid 1px blue;
+  width: 200px;
+  height: 30px;
 }
 
 .btnContainer {
